@@ -277,12 +277,18 @@ br {
   display: block;
 }
 
-.img img,
-.img video {
+.img img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.4s ease;
+}
+
+.img iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* Mantém a proporção do vídeo */
+  border: none;
 }
 
 .img:hover img {
@@ -411,5 +417,10 @@ br {
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
+  }
+  
+  .img iframe {
+    height: auto;
+    aspect-ratio: 16 / 9;
   }
 }
