@@ -241,6 +241,15 @@ section {
   font-size: 1.1rem;
 }
 
+footer {
+  width: 100vw;
+  text-align: center;
+  font-size: 0.8rem;
+  color: white;
+  padding: 15px 0;
+  background-color: burlywood;
+}
+
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: row;
