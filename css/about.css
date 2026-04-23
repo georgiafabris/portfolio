@@ -169,7 +169,7 @@ section {
 
 .frame1 h1 {
   margin-top: 50vh;
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin-bottom: 2.5rem;
   text-align: right;
   color: saddlebrown;
@@ -188,10 +188,10 @@ section {
 }
 
 .frame1 p {
-  width: 500px;
+  width: 400px;
   text-align: right;
   color: saddlebrown;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-left: auto;
 }
 
@@ -201,10 +201,10 @@ section {
 }
 
 .frame2 p {
-  width: 535px;
+  width: 330px;
   text-align: left;
   color: rgb(106, 52, 14);
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .frame3 {
@@ -213,19 +213,19 @@ section {
 
 .frame3 p:first-of-type {
   margin-top: 14vh;
-  width: 280px;
+  width: 310px;
   text-align: left;
   color: saddlebrown;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .frame3 p:last-of-type {
-  width: 280px;
+  width: 310px;
   margin-top: 15vh;
-  text-align: right;
+  text-align: left;
   margin-left: auto;
   color: saddlebrown;
-  font-size: 1.1rem;
+  font-size: 1rem;
   justify-self: end;
 }
 
@@ -235,10 +235,10 @@ section {
 }
 
 .frame4 p {
-  width: 390px;
+  width: 310px;
   text-align: left;
   color: saddlebrown;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 footer {
@@ -295,6 +295,10 @@ footer {
     padding: 2rem 1rem;
   }
 
+  footer p {
+    font-size: 0.7rem;
+  }
+
   .frame1 {
     background-image: url(../imagens/about/mobile1.png);
   }
@@ -323,7 +327,7 @@ footer {
   .frame3 p:last-of-type,
   .frame4 p {
     width: 400px;
-    text-align: left;
+    text-align: center;
     font-size: 0.8rem;
     padding: 2rem 2rem 0rem 2rem;
     margin-top: 0vh;
@@ -350,5 +354,6 @@ footer {
 
   .frame1 h2 {
     font-size: 0.9rem !important;
+    text-align: center;
   }
 }
